@@ -10,7 +10,7 @@ __Hi, there, those are some cool projects I have done.__
  - Used Python to do feature extraction on NLP (including featuring tf-idf)
  - Applied machine learning algorithms (random forest, xgboost,    Tensorflow deep learning) to perform Text mining/ Natural language processing (NLP)..
 
- [Data Visulization with Spotfire](http://bl.ocks.org/nstrayer/37a503dd1db369a8f7e3ce21757e19ee)
+ [Data Visulization with Spotfire]
 
 - Used spotfire to design and develop a comprehensive clinical data visulization tool 
 - Scriped Ironpython to add advanced interative features. 
