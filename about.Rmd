@@ -2,4 +2,29 @@
 title: "About Me"
 ---
 
-Why I am awesome.
+ __Name:__ Jacky Xue
+
+ __Email:__ jacky.xue.ds@gmail.com
+
+ __Skills:__
+
+-	Programming: Python, R, SAS, Matlab.  Basic knowledge of Html, CSS, JavaScript, Hadoop, Hive.
+
+-	Database: MySQL, Teradata
+
+-	Data Visualization:  Spotfire, SAS Visual Analytics, Tableau , Jump 
+
+-	Statistics: Regression, Classification, Hypothesis testing, ANOVA, GLM, Statistical Modeling, Statistical/Machine Learning, Optimization, Survival Analysis, Experimental Design
+
+ __Hobbies:__
+
+-	Travelling, Reading, Writing, Storytelling, Public Speaking, Tango Dancing, Hip Hop, Jazz, Guitar.
+
+- Toastmaster speech compitetion winner. 
+
+- Published story writter. 
+
+
+__"Hello, there"__
+
+![](jacky.jpeg)

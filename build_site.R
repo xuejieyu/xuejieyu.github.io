@@ -6,3 +6,4 @@ setwd("/Users/coolfish/Documents/gittub/personal_site/my_site")
 
 #render your sweet site. 
 rmarkdown::render_site()
+

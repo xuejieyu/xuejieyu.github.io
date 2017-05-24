@@ -1,9 +1,28 @@
 name: "jackys-website"
 output_dir: "."
 navbar:
-  title: "Jackys Website"
+  title: "Hi. I'm Jacky"
+  type: inverse
   left:
-    - text: "Home"
-      href: index.html
     - text: "About Me"
       href: about.html
+      icon: fa-user 
+    - text: "Projects"  
+      icon: fa-slideshare 
+      href: projects.html 
+    - text: "Education" 
+      icon: fa-book  
+      href: education.html 
+    - text: "Professional" 
+      icon: fa-file  
+      href: professional.html 
+    - text: "Blog"
+      icon: fa-thumbs-up 
+      href: blog.html
+      
+      
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
+    css: style.css

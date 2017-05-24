@@ -1,5 +1,16 @@
 ---
-title: "Jacky's Website"
+title: "Welcome"
 ---
 
-Hello, World!
+
+
+
+__Hello, I'm Jacky.  Welcome to my website.  Let's explore the fun world of data science together.__
+
+
+
+
+
+
+
+![](data_science.jpg)
