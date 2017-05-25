@@ -18,7 +18,7 @@ navbar:
       href: professional.html 
     - text: "Blog"
       icon: fa-thumbs-up 
-      href: blog.html
+      href: Blog.html
       
       
 output:
