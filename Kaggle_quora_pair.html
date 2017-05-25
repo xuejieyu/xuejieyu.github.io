@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Kaggle_quora_pair</title>
+<title>Kaggle_quora_pair-Copy3</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11751,7 +11751,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="A-step-by-step-cracking-of-the-Kaggle-project-Quora-question-pair">A step-by-step cracking of the Kaggle project-Quora question pair<a class="anchor-link" href="#A-step-by-step-cracking-of-the-Kaggle-project-Quora-question-pair">&#182;</a></h1>
+<h1><center>Cracking the Kaggle project-Quora question pair</center></h1>
 </div>
 </div>
 </div>
@@ -11760,9 +11760,9 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This is the Kaggle project Quora Question Pairs competition! <a href="https://www.kaggle.com/c/quora-question-pairs">https://www.kaggle.com/c/quora-question-pairs</a>. The goal for this challange is to compare two questions from quora, and identify if they're duplicate. This can come very useful when there are tons of questions being asked every day, and consolidate the answer for the convenience of users.</p>
-<p>This aritile provide a comprehensive step-to-step code of solutions, from handcrafted featureing, including the disvory of magic features, to training the model by serveal machine learning agrolritms (random forest, deep learning, xgboost), and pick the winner.</p>
-<p>We ranked as 156/3000th on the leader board.</p>
+<p>This is the Kaggle project Quora Question Pairs competition: <a href="https://www.kaggle.com/c/quora-question-pairs">https://www.kaggle.com/c/quora-question-pairs</a>. The goal for this challange is to compare two questions from quora, and identify if they're duplicate. This can come very useful when there are tons of questions being asked every day, and consolidate the answer for the convenience of users.</p>
+<p>This aritile provide a comprehensive step-by-step code of solutions, from data exploration, handcrafted featureing, (including the discovery of magic features), to training the model by serveal machine learning agrolritms (random forest, deep learning, xgboost), and pick the winner.</p>
+<p>We currently are ranking as 300/2800th on the leader board.</p>
 <p>Let's dive into the data.</p>
 
 </div>
@@ -11773,7 +11773,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Exploratary-analysis">Exploratary analysis<a class="anchor-link" href="#Exploratary-analysis">&#182;</a></h1>
+<h2 id="Exploratary-analysis">Exploratary analysis<a class="anchor-link" href="#Exploratary-analysis">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -12565,9 +12565,7 @@ JEldzASeJEmSJEmS1MX+H1cgP6X9UGZqAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>It seems that the test distribution is a little different from the train one. 
-One thing that catches my eye is the steep cut-off at 150 characters for the training set, for most questions, while the test set slowly decreases after 150. Could this be some sort of Quora question size limit?
-It's also worth noting that I've truncated this histogram at 200 characters, and that the max of the distribution is at just under 1200 characters for both sets - although samples with over 200 characters are very rare.
+<p>It seems that the test distribution is a little different from the train one. One thing that catches my eye is the steep cut-off at 150 characters for the training set, for most questions, while the test set slowly decreases after 150. It might be the Quora question size limit.It's also worth noting that I've truncated this histogram at 200 characters, and that the max of the distribution is at just under 1200 characters for both sets - although samples with over 200 characters are very rare.
 Let's do the same for word count. I'll be using a naive method for splitting words (splitting on spaces instead of using a serious tokenizer), although this should still give us a good idea of the distribution.</p>
 
 </div>
@@ -12578,7 +12576,7 @@ Let's do the same for word count. I'll be using a naive method for splitting wor
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Handcrafted-featurings">Handcrafted featurings<a class="anchor-link" href="#Handcrafted-featurings">&#182;</a></h1>
+<h2 id="Handcrafted-featurings">Handcrafted featurings<a class="anchor-link" href="#Handcrafted-featurings">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -12588,9 +12586,8 @@ Let's do the same for word count. I'll be using a naive method for splitting wor
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In order to analyze the file, we need translate the text into nums, so the computer can understand and be able to calculate. There are tons of ways to do so. I will use something called TF-IDF (term-frequency-inverse-document-frequency). TF is to calculate how many terms are in common from both questions, IDF is the inverse document frequency, which means that we weigh the terms by how uncommon they are, meaning that we care more about rare words existing in both questions than common one.</p>
-<p>This makes sense, as for example we care more about whether the word "python" appears in both than the word "and" or "the" - as uncommon words will be more indicative of the content. Also, we try to see if stop words like 'an' 'the' would play a role in it, so we will build features based on both.</p>
+<p>This makes sense, as for example we care more about whether the word "python" appears in both than the words "and" or "the" - as uncommon words will be more indicative of the content. Also, we try to see if stop words like 'an' 'the' would play a role in it, so we will build features based on both.</p>
 <p>In the last but not least, we want put bag of words together as normally phases carry out the meaning different from each seperate words.</p>
-<p>This code for this featuring is to this location:</p>
 <p>Due to the gigantic size of this data file and long hours running it, I'll skip running it here and load the results directly.</p>
 
 </div>
