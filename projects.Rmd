@@ -10,12 +10,12 @@ __Hi, there, those are some cool projects I have done.__
  - Used Python to do data exploration and feature extraction on NLP (featuring tf-idf)
  - Applied machine learning algorithms (random forest, xgboost,    Tensorflow deep learning) to perform Text mining/ Natural language processing (NLP)..
 
- [Data Visulization with Spotfire](spotfire.pdf)
+ [A Comprehensive Clinical Data Visulization with Spotfire](spotfire.pdf)
 
 - Used spotfire to design and develop a comprehensive clinical data visulization tool 
 - Scriped Ironpython to add advanced interative features.
 - Due to the spotfire licence limitation, only PDF version is showing here.
 
- [Use R Markdown and Gittub to make a personal website: A step-by-step tutorial and source code for this website](https://github.com/xuejieyu/xuejieyu.github.io)
+ [How to use R Markdown and Gittub to make a personal website: A step-by-step tutorial and source code for this website](https://github.com/xuejieyu/xuejieyu.github.io)
 
 - A step-by-step tutorial and source code for this website. 
