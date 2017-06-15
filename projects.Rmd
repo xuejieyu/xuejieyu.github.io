@@ -7,9 +7,11 @@ __Hi, there, those are some cool projects I have done.__
 
  [Cracking the Kaggle project-Quora Question Pair](Kaggle_quora_pair.html)
 
- - Used Python to do data exploration and feature extraction on NLP (featuring tf-idf)
- - Applied machine learning algorithms (random forest, xgboost,    Tensorflow deep learning) to perform Text mining/ Natural language processing (NLP)..
-
+ - Ranked on top 8% (bronze medal!) on the Kaggle leaderboard. 
+ - NLP (natural language processing) handcrafted feature engineering. 
+ - Used multiple machine learning algorithms (xgboost/neural network deep learning/random forest etc.) to build models.
+ - Used advanced ensample skills, including stacking/bagging to further improve the model performance and make predictions.  
+ 
  [A Comprehensive Clinical Data Visulization with Spotfire](spotfire.pdf)
 
 - Used spotfire to design and develop a comprehensive clinical data visulization tool 
@@ -19,3 +21,9 @@ __Hi, there, those are some cool projects I have done.__
  [How to use R Markdown and Gittub to make a personal website: A step-by-step tutorial and source code for this website](https://github.com/xuejieyu/xuejieyu.github.io)
 
 - A step-by-step tutorial and source code for this website. 
+_ A text version of tutorial will be updated soon. 
+
+ [What can you tell from your facebook account: an analysis of social network by python]
+
+- Used web crawler program to obtain data from facebook API.
+- An analysis of social network by python networkx package. 

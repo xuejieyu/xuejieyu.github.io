@@ -11760,9 +11760,10 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This challenge is for the Kaggle competition Quora Question Pairs: <a href="https://www.kaggle.com/c/quora-question-pairs">https://www.kaggle.com/c/quora-question-pairs</a>. The goal of this challenge is to compare two questions asked on Quora, regarding different words and terms being used, are actually the same question. The solution for this question would have a great impact on the business:  Detecting duplicate questions and consolidating them can significantly improve the quality of the website, provide better user experiences, and reduce storage cost. Eventually it will turn into profits by making the website more appealing and convenient for users, and reducing the maintaining cost at the same time.</p>
-<p>The solution provided in this article ranked as top 8% (thus, &lt;font color=brown&gt; Bronze medal &lt;/font&gt;)  on the Kaggle leaderboard.</p>
-<p>This article provides a thorough explanation of our approach, including data exploration, handcrafted featuring (the discovery of magic features),  training different machine learning algorithm (linear regression, random forest, neural network deep learning, xgboost), and eventually stacking the models to reach the ultimate performance.</p>
+<p>This is the Kaggle project Quora Question Pairs competition: <a href="https://www.kaggle.com/c/quora-question-pairs">https://www.kaggle.com/c/quora-question-pairs</a>. The goal for this challange is to compare two questions from quora, and identify if they're duplicate. This can come very useful when there are tons of questions being asked every day, and consolidate the answer for the convenience of users.</p>
+<p>This aritile provide a comprehensive step-by-step code of solutions, from data exploration, handcrafted featureing, (including the discovery of magic features), to training the model by serveal machine learning agrolritms (random forest, deep learning, xgboost), and pick the winner.</p>
+<p>We currently are ranking as 300/2800th on the leader board.</p>
+<p>Let's dive into the data.</p>
 
 </div>
 </div>
@@ -11773,16 +11774,6 @@ div#notebook {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Exploratary-analysis">Exploratary analysis<a class="anchor-link" href="#Exploratary-analysis">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Two datasfiles are provided in this contest: train and test. Let's first dive into the data:</p>
-
 </div>
 </div>
 </div>
@@ -12594,9 +12585,9 @@ Let's do the same for word count. I'll be using a naive method for splitting wor
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In order to analyze the file, we need to translate the text into numbers, so the computer can understand and be able to calculate. There are tons of ways to do so. I will use a common practise in NLP, something called TF-IDF (term-frequency-inverse-document-frequency). TF is to calculate how many terms are in common from both questions, IDF is the inverse document frequency, which means that we weigh the terms by how uncommon they are, meaning that we care more about rare words existing in both questions than common one.</p>
-<p>The logic behind is that the 'uncommon words' are more important in our model than the common ones, like 'and', 'that', 'this' ect, as uncommon words will be more indicative of the content. Also, we try to see if stop words like 'an' 'the' would play a role in it, so we will build features based on both.</p>
-<p>In the last but not least, we want put bag of words together as normally phases carry out the meaning different from each separate words.</p>
+<p>In order to analyze the file, we need translate the text into nums, so the computer can understand and be able to calculate. There are tons of ways to do so. I will use something called TF-IDF (term-frequency-inverse-document-frequency). TF is to calculate how many terms are in common from both questions, IDF is the inverse document frequency, which means that we weigh the terms by how uncommon they are, meaning that we care more about rare words existing in both questions than common one.</p>
+<p>This makes sense, as for example we care more about whether the word "python" appears in both than the words "and" or "the" - as uncommon words will be more indicative of the content. Also, we try to see if stop words like 'an' 'the' would play a role in it, so we will build features based on both.</p>
+<p>In the last but not least, we want put bag of words together as normally phases carry out the meaning different from each seperate words.</p>
 <p>Due to the gigantic size of this data file and long hours running it, I'll skip running it here and load the results directly.</p>
 
 </div>
