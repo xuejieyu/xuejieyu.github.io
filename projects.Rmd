@@ -23,7 +23,7 @@ __Hi, there, those are some cool projects I have done.__
 - A step-by-step tutorial and source code for this website. 
 _ A text version of tutorial will be updated soon. 
 
- [What can you tell from your facebook account: an analysis of social network by python]
+ What can you tell from your facebook account: an analysis of social network by python
 
 - Used web crawler program to obtain data from facebook API.
 - An analysis of social network by python networkx package. 

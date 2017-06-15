@@ -8,8 +8,10 @@ __Senior Statistical Programmer__
 
 [Gilead Science](https://www.gilead.com) 01/2013-Current 
 
--	Designed an interactive data visualization tool by Spotfire to  support data exploratory analysis and data review, gained popularity in cross function teams immediately with total users 500+ and totally visits 7000+, significantly reduced the ad hoc requests and increased the efficiency. .  
--	Lead the team to develop sample codes, write SAS macros, set the data infrastructure to streamline work process.
+-	Designed and built an end-to-end data visualization tool by Spotfire with Ironpython scripts, which has been used as the major data review tool in the department  by cross function teams with 500+ users.
+
+-	Lead the team to set the data infrastructure, develop sample codes and SAS macros, build database to support the visualization tool.
+
 -	Programmed to apply statistical modeling/tests on over 50 clinical studies across therapeutic functions, communicated the results with multiple stockholders and influenced decision
 
 __Statistical Programmer__ 
@@ -17,6 +19,7 @@ __Statistical Programmer__
 [PharmaNet/i3](http://www.inventivhealthclinical.com/global-reach.htm)  06/2011-01/2013
 
 -	Programmed to performed statistical analysis on clinical data for new drug application to submit to FDA.
+
 -	Built and maintained a biometrics database to support the company wise analysis work.
   
   
