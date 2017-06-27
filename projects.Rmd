@@ -18,6 +18,12 @@ __Hi, there, those are some cool projects I have done.__
 - Scriped Ironpython to add advanced interative features.
 - Due to the spotfire licence limitation, only PDF version is showing here.
 
+ [How to predict Boston house price with linear regression model and public information](Boston_House_Prediction_With_Linear_Regression.html)
+ 
+- Used linear regression model to predict Boston house price.
+- Implemented train-test-split for cross-validation. 
+- Calculated MSE to compare the results of train vs test.
+
  [How to use R Markdown and Gittub to make a personal website: A step-by-step tutorial and source code for this website](https://github.com/xuejieyu/xuejieyu.github.io)
 
 - A step-by-step tutorial and source code for this website. 

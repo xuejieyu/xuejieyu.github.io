@@ -1,10 +1,24 @@
 ---
 title: "Education"
 ---
+ <b>Continuing Studies</b>
+ 
+ - [Machine Learning](https://github.com/xuejieyu/machine-learning) (Courera/ Stanford University Class/ Andrew Ng)
+  
+ - Machine Learning A-Z™: Hands-On Python & R In Data Science (Udemy/ Kirill Eremenko)
+  
+ - Statistical Learning (Stanford University/ Trevor Hastie & Robert Tibshirani)
+ 
+ - The Analytics Edge (MIT/ EDX)
+
+ - Design of Computer Program (Udacity)  
+   
 
 
 
- [Syracuse Universtiy](https://www.syracuse.edu)  
+
+
+ <b>[Syracuse Universtiy](https://www.syracuse.edu)  </b>
   2006-2008
 
  __Master in Economics (Tutored on Econometric Methods)__
@@ -21,7 +35,7 @@ title: "Education"
   
   - Mathematical Economics (B+)
 
- [SWUFE](https://e.swufe.edu.cn)  
+ <b>[SWUFE](https://e.swufe.edu.cn)  </b>
   2002-2006
 
 __Bachelor in International Economics and Trade__ 
